@@ -1,0 +1,8 @@
+{
+  "name": "DustDetectives",
+  "description": "A comprehensive AI suite powered by Google Gemini. Features include Storytelling (Text), Vision Analysis (Multimodal), and Image Generation (Imagen 3).",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
