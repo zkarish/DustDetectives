@@ -78,7 +78,7 @@ export class StoryTellerComponent {
       const stream = await this.geminiService.generateStoryStream(this.prompt());
       
       for await (const chunk of stream) {
-        const text = chunk.text(); // Correct way to access text in stream chunk
+        const text = chunk.text; // Correct way to access text in stream chunk
         this.result.update(current => current + text);
       }
     } catch (error) {
