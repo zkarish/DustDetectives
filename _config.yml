@@ -44,7 +44,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Angular 17+ (which you have) outputs to dist/<project-name>/browser
-          path: 'dist/dustdetectives/browser'
+          path: 'dist/'
 
       - name: Deploy to GitHub Pages
         id: deployment
